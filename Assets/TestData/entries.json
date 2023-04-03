@@ -7,8 +7,8 @@
             "thrownDate": "2022-02-02T12:00:00Z",
             "trimmedDate": "2022-02-03T14:00:00Z",
             "glazedDate": "2022-02-04T16:00:00Z",
-            "clayName": "Porcelain",
-            "trimName": "Wave",
+            "clayName": ["Porcelain"],
+            "trimName": ["Wave"],
             "glazes": ["Blue", "Green"],
             "notes": "Handle is slightly asymmetrical",
             "imagePath": "/path/to/image.jpg"
@@ -20,8 +20,8 @@
             "thrownDate": "2022-03-06T11:00:00Z",
             "trimmedDate": "2022-03-07T13:00:00Z",
             "glazedDate": "2022-03-08T15:00:00Z",
-            "clayName": "Earthenware",
-            "trimName": "Fluted",
+            "clayName": ["Earthenware"],
+            "trimName": ["Fluted"],
             "glazes": ["Red", "Yellow", "Green"],
             "notes": "One bowl has a small crack on the rim",
             "imagePath": "/path/to/image2.jpg"
@@ -33,8 +33,8 @@
             "thrownDate": "2023-02-21T11:00:00Z",
             "trimmedDate": "2023-02-22T13:00:00Z",
             "glazedDate": "2023-02-23T15:00:00Z",
-            "clayName": "Porcelain",
-            "trimName": "Fluted",
+            "clayName": ["Porcelain"],
+            "trimName": ["Fluted"],
             "glazes": ["White"],
             "notes": "Slight imperfection on the surface",
             "imagePath": "/path/to/image4.jpg"
@@ -46,8 +46,8 @@
             "thrownDate": "2023-03-11T12:00:00Z",
             "trimmedDate": "2023-03-12T14:00:00Z",
             "glazedDate": "2023-03-13T16:00:00Z",
-            "clayName": "Earthenware",
-            "trimName": "Smooth",
+            "clayName": ["Earthenware"],
+            "trimName": ["Smooth"],
             "glazes": ["Blue", "Green", "Yellow"],
             "notes": "Has a unique shape",
             "imagePath": "/path/to/image5.jpg"
