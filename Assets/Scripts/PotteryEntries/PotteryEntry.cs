@@ -9,6 +9,7 @@ public class PotteryEntryList {
 
 [Serializable]
 public class PotteryEntry {
+    public int id;
     public string label;
     public int pieces;
     public DateTime thrownDate;
