@@ -1,24 +1,45 @@
 using UnityEngine;
+using System.Collections.Generic;
+using System;
 using UnityEngine.UI;
 using TMPro;
 
 public class EntryInputFields : MonoBehaviour {
 
-    //public Text nameInput;
+    public TextMeshProUGUI idDisplay;
     public TextMeshProUGUI nameInput;
-    public Text numPiecesInput;
+    public TextMeshProUGUI numPiecesInput;
+    public TextMeshProUGUI weightInput;
 
-    //TODO DatePicker type
-    public GameObject thrownDateInput;
-    public GameObject trimDateInput;
-    public GameObject glazeDateInput;
+    public TextMeshProUGUI thrownDateInput;
+    public TextMeshProUGUI trimDateInput;
+    public TextMeshProUGUI glazeDateInput;
 
-    public Text clayNamesInput;
-    public Text glazeNamesInput;
-    public Text notesInput;
+    public TextMeshProUGUI clayNamesInput;
+    public TextMeshProUGUI glazeNamesInput;
+    public TextMeshProUGUI notesInput;
+
+    public List<TextMeshProUGUI> inputFields;
 
     public void Start() {
-        nameInput.text = "Yesss";
+        inputFields = new List<TextMeshProUGUI>{
+            idDisplay,
+            nameInput,
+            numPiecesInput,
+            weightInput,
+            thrownDateInput,
+            trimDateInput,
+            glazeDateInput,
+            clayNamesInput,
+            glazeNamesInput,
+            notesInput
+        };
+
+        /*
+        foreach (TextMeshProUGUI tmp in inputFields) {
+            tmp.text = "10";
+        }
+        */
     }
 
     public void saveEntry() {
